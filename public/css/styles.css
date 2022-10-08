@@ -42,13 +42,19 @@ form .icon-container i{
 }
 
 div .burger-menu{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+justify-content: center;
+align-items: center;
 }
 
 #centrar-icono{
     position: relative;
     left: 50%;
+}
+
+header nav div i{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
