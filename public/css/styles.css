@@ -27,34 +27,21 @@ footer{
 }
 
 footer i{
-    size: 2em;
+    font-size: 2em;
     margin-bottom: 10px;
     color: #03264C;
 }
 
-.icono{
-    size: 2em;
-    margin-bottom: 10px;
-}
-
 form .icon-container i{
     color: black;
+    margin-top: 10px;
 }
 
-div .burger-menu{
-    display: flex;
-justify-content: center;
-align-items: center;
-}
-
-#centrar-icono{
-    position: relative;
-    left: 50%;
-}
-
-header nav div i{
+.burger-menu{
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+.burger-menu i{
+    color: #03264C;
+    font-size: 20px;
 }
