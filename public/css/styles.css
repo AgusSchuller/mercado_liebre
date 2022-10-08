@@ -1,0 +1,46 @@
+header {
+    background-color: #EAC926;
+}
+h3{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+.precio{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.descuentos{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+#centrar{
+    align-content: center;
+}
+
+footer{
+    text-align: center;
+}
+
+footer i{
+    size: 2em;
+    margin-bottom: 10px;
+    color: #03264C;
+}
+
+.icono{
+    size: 2em;
+    margin-bottom: 10px;
+}
+
+form .icon-container i{
+    color: black;
+}
+
+div .burger-menu i{
+    text-align: center;
+}
