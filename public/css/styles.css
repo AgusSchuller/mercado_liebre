@@ -41,6 +41,14 @@ form .icon-container i{
     color: black;
 }
 
-div .burger-menu i{
-    text-align: center;
+div .burger-menu{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#centrar-icono{
+    position: relative;
+    left: 50%;
 }
