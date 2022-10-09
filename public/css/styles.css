@@ -35,6 +35,9 @@ footer i{
 form .icon-container i{
     color: black;
     margin-top: 10px;
+    background-color: var(--gris-claro);
+    padding: 5px;
+    border-radius: 10%;
 }
 
 .burger-menu{
@@ -42,6 +45,20 @@ form .icon-container i{
 }
 
 .burger-menu i{
-    color: #03264C;
-    font-size: 20px;
+    color: var(--gris-claro);
+    background-color: var(--celeste);
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 10%;
+    margin-bottom: 15px;
 }
+
+:root{
+    --amarillo: #EAC926;
+    --azul: #03264c;
+    --celeste: #1259c3;
+    --gris-oscuro: #666;
+    --gris-claro: #ebebeb;
+    --verde: #39b54a;
+}
+
