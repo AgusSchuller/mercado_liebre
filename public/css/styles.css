@@ -8,18 +8,22 @@ h3{
 .precio{
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+    text-align: left;
 }
 .descuentos{
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
+    color: var(--verde);
+   text-align: left;
 }
 h4{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    text-align: left;
 }
 
 #centrar{
-    align-content: center;
+    text-align: left;
 }
 
 footer{
@@ -62,3 +66,42 @@ form .icon-container i{
     --verde: #39b54a;
 }
 
+main {
+    width: 90%;
+    text-align: center;
+}
+section div{
+    margin: 10px;
+    
+    
+}
+
+main section div div i{
+    color: var(--verde);
+}
+
+
+.borde {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    
+  
+}
+
+@media (min-width: 361px){
+     body{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    h4 {
+        display: none;
+    }
+
+}
+
+@media (min-width: 769px){
+   
+    h4 {
+        display: block;
+    }
+    
+}
