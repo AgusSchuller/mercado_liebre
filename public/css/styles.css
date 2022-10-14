@@ -146,3 +146,9 @@ main section div div div i{
     margin: 0;
     align-items: flex-end;
 }
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
