@@ -151,4 +151,9 @@ main section div div div i{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+}
+
+.borde{
+    flex-direction: column;
 }
