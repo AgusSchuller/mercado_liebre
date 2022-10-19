@@ -1,3 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
 header {
     background-color: #EAC926;
 }
@@ -130,13 +139,6 @@ main section div div i{
     position: absolute;
 }
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-
-}
-
 main section div div div i{
     text-align: center;
 }
@@ -156,4 +158,50 @@ main section div div div i{
 
 .borde{
     flex-direction: column;
+}
+
+.registro-main label{
+    
+    text-align: left;
+    margin: 5px;
+}
+
+.registro-main input{
+   
+    margin: 5px;
+}
+
+.registro-main select{
+    
+    margin: 5px;
+}
+
+.registro-main{
+    padding: 20px 15px;
+    background-color: var(--gris-claro);
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.registro-form{
+    display: block;
+}
+
+
+.control {
+    width: 100%;
+    padding: 8px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.main-reg{
+    width: 100%;
+}
+
+.button {
+    background-color: var(--celeste);
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    border-radius: 5px;
 }
