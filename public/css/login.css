@@ -3,7 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
 header {
     background-color: #EAC926;
     position: fixed;
@@ -11,58 +10,6 @@ header {
     top: 0px;
     z-index: 100;
 }
-.img-head{
-    width: 100%;
-}
-
-h3{
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif;
-}
-.precio{
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    text-align: left;
-}
-.descuentos{
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    color: var(--verde);
-   text-align: left;
-}
-h4{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    text-align: left;
-}
-
-#centrar{
-    text-align: left;
-}
-
-
-
-form .icon-container i{
-    color: black;
-    margin-top: 10px;
-    background-color: var(--gris-claro);
-    padding: 5px;
-    border-radius: 10%;
-}
-
-.burger-menu{
-    text-align: center;
-}
-
-.burger-menu i{
-    color: var(--gris-claro);
-    background-color: var(--celeste);
-    font-size: 30px;
-    padding: 5px;
-    border-radius: 10%;
-    margin-bottom: 15px;
-}
-
 :root{
     --amarillo: #EAC926;
     --azul: #03264c;
@@ -75,63 +22,6 @@ form .icon-container i{
 main {
     width: 90%;
     text-align: center;
-}
-section div{
-    margin: 10px;
-}
-
-main section div div i{
-    color: var(--verde);
-}
-
-
-.borde {
-    border-top: 1px solid #ebebeb;
-    padding: 15px;
-    
-  
-}
-
-main section div {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: baseline;
-        border-top: 1px solid #ebebeb;
-        position: relative;
-        padding: 15px;
-}
-
-
-
-main section div div i{
-    display: block;
-    font-size: 16px;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #39b54a;
-    background-color: #fff;
-    border-radius: 50%;
-    text-align: right;
-    right: 20px;
-    top: -15px;
-    justify-content: flex-end;
-    position: absolute;
-}
-
-main section div div div i{
-    text-align: center;
-}
-
-.detalle-producto {
-    display: flex;
-    margin: 0;
-    align-items: flex-end;
-}
-
-.borde{
-    flex-direction: column;
 }
 
 .registro-main label{
@@ -159,8 +49,7 @@ main section div div div i{
 
 .registro-form{
     display: block;
-   }
-
+}
 
 .control {
     width: 100%;
@@ -172,7 +61,7 @@ main section div div div i{
 .main-reg{
     width: 100%;
     margin-top: 180px;
-    }
+}
 
 .button {
     background-color: var(--gris-claro);
@@ -185,28 +74,30 @@ main section div div div i{
     transition: all 450ms;
 }
 
-.button:hover{
+.button:hover {
     background-color: var(--celeste);
     color: var(--gris-claro);
 }
+
 .nav-header {
     font-family: 'Roboto', sans-serif;
     text-align: left;
     margin-left: 25px;
     margin-top: 10px;
-   }
-   .product img{
-    width: 100%;
-   }
+}
 
-   .product{
+.product img{
+    width: 100%;
+}
+
+.product{
     border: 10px solid var(--gris-claro);
     border-radius: 10px;
     margin: 10px;
     position: relative;
-   }
+}
 
-   .product h3{
+.product h3{
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     margin: 0px;
@@ -215,48 +106,55 @@ main section div div div i{
     bottom: 0px; 
     opacity: 0;
     transition: all 450ms;
-   }
+}
 
-   .product:hover h3{
+.product:hover h3{
     opacity: 1;
     background-color: rgba(255, 0, 0, 0.5);
     border-radius: 10%;
-    }
+}
 
-    .product:hover {
+.product:hover {
         padding-bottom: 50px;
-    }
-
+}
     
-   .banner{
+.banner{
     font-family: 'Roboto', sans-serif;
     background-color: var(--verde);
     color: var(--gris-claro);
     padding: 5px;
     margin: 10px;
     animation: aumentar 300ms ease-in infinite alternate;
-   }
+}
 
-   .img-head{
+.img-head{
     width: 100%;
-   }
-   .txt01{
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+}
+
+.txt01{
     margin: 0px;
     width: 100%;
     text-align: center;
     background-color: var(--amarillo);
     padding: 10px;
-    font-family: 'Roboto', sans-serif;
-   }
+}
 
-   .sep{
+.sep{
     margin-top: 10px;
-   }
+}
 
-   .foot{
+.foot{
     text-align: center;
-   }
-   
+}
+
 .foot i{
     font-size: 2em;
     margin-top: 50px;
@@ -264,8 +162,7 @@ main section div div div i{
     color: var(--celeste);
 }
 
-
-    @keyframes aumentar {
+@keyframes aumentar {
     0%{
         transform: scale(0.9);
         color: white;
@@ -280,10 +177,10 @@ main section div div div i{
         transform: scale(1);
         color: red;
         background-color: yellow;
-    }    
-   }
+    }
+}
 
-   @media (min-width: 361px){
+@media (min-width: 361px){
     body{
        box-shadow: 0px 0px 10px rgb(100, 100, 100);
    }
