@@ -39,15 +39,8 @@ h4{
     text-align: left;
 }
 
-footer{
-    text-align: center;
-}
 
-footer i{
-    font-size: 2em;
-    margin-bottom: 10px;
-    color: #03264C;
-}
+
 
 form .icon-container i{
     color: black;
@@ -109,23 +102,7 @@ main section div {
         padding: 15px;
 }
 
-@media (min-width: 361px){
-     body{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
-    h4 {
-        display: none;
-    }
 
-}
-
-@media (min-width: 769px){
-   
-    h4 {
-        display: block;
-    }
-    
-}
 
 main section div div i{
     display: block;
@@ -161,6 +138,7 @@ main section div div div i{
     font-family: 'Roboto', sans-serif;
     height: 100px;
     width: auto;
+    background-color: var(--amarillo);
 
 }
 
@@ -205,7 +183,7 @@ main section div div div i{
 
 .main-reg{
     width: 100%;
-    margin-top: 300px;
+    margin-top: 130px;
     }
 
 .button {
@@ -234,18 +212,13 @@ main section div div div i{
     position: relative;
    }
 
-
-
    .product h3{
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     margin: 0px;
-    padding: 15px;
-    
+    padding: 15px;    
     left: 0px;
-    bottom: 0px;
-   
-    
+    bottom: 0px; 
     opacity: 0;
     transition: all 450ms;
    }
@@ -270,6 +243,28 @@ main section div div div i{
     animation: aumentar 300ms ease-in infinite alternate;
    }
 
+   .img-head{
+    width: 100%;
+   }
+   .txt01{
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: var(--amarillo);
+    padding: 10px;
+   }
+   .foot{
+    text-align: center;
+
+   }
+.foot i{
+    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: var(--celeste);
+}
+
+
     @keyframes aumentar {
     0%{
         transform: scale(0.9);
@@ -287,3 +282,21 @@ main section div div div i{
         background-color: yellow;
     }    
    }
+
+   @media (min-width: 361px){
+    body{
+       box-shadow: 0px 0px 10px rgb(100, 100, 100);
+   }
+   h4 {
+       display: none;
+   }
+
+}
+
+@media (min-width: 769px){
+  
+   h4 {
+       display: block;
+   }
+   
+}
