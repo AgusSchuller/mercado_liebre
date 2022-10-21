@@ -159,6 +159,9 @@ main section div div div i{
     align-items: center;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    height: 100px;
+    width: auto;
+
 }
 
 .borde{
@@ -238,14 +241,11 @@ main section div div div i{
     color: white;
     margin: 0px;
     padding: 15px;
-    position: absolute;
+    
     left: 0px;
     bottom: 0px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
+    
     opacity: 0;
     transition: all 450ms;
    }
@@ -255,6 +255,11 @@ main section div div div i{
     background-color: rgba(255, 0, 0, 0.5);
     border-radius: 10%;
     }
+
+    .product:hover {
+        padding-bottom: 50px;
+    }
+
     
    .banner{
     font-family: 'Roboto', sans-serif;
