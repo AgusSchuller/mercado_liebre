@@ -33,17 +33,25 @@ header {
     z-index: 100;
     position: fixed;
 }
+header nav {
+    display:flex;
+}
 
 header nav .titulos{
     display: flex;
-    align-items: flex-end;
 }
 
 header nav .opciones{
     display: flex;
-    align-items: flex-end;;
 }
 
+header nav a{
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
 .borde {
     border: 4px solid #888686;
     margin: 5px;
