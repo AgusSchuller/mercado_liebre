@@ -202,8 +202,13 @@ main section h3 {
 .cajaregistro {
   width: 300px;
 }
+main form ul{
+width: 200px;
+margin-left: 190px;
+}
 .register-item-categoria {
-  text-align: center;
+  text-align: left;
+  list-style: none;
 }
 /*-----------FOOTER----------*/
 footer {
